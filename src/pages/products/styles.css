@@ -1,0 +1,263 @@
+
+.product{
+    padding: 2em;
+}
+.title-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-div>.btn{
+    padding-inline: 4em !important;
+}
+.naviagte-path{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding-block: 1.5em;
+}
+.add-product-details{
+    margin-block: 2em;
+    background-color: white;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px -2px #0000001C;
+    padding: 1em;
+
+}
+.add-product-details>input{
+    width: 100%;
+    padding: .8em;
+    margin-bottom: .2em;
+    border: 1px solid #0000002E;
+    border-radius: 8px;
+}
+.add-product-details>p{
+    padding-block: .5em;
+}
+.add-product-details>label{
+    padding-block: .5em;
+}
+select{
+    width: 100%;
+    padding: .8em;
+    border-radius: 8px;
+    border: 1px solid #0000002E;
+}
+
+.naviagte-path p {
+    display: inline;
+    padding: 5px;
+  }
+  
+  .active-step {
+    color: #1F8CD0;
+    font-weight: 500;
+    background-color: #DAEDF9;
+    border-radius: 8px;
+  }
+  
+
+
+  /* tabs2 */
+  .react-tagsinput--focused {
+    border-color: #0000002E !important;
+    color: black !important;
+  }
+  .react-tagsinput-tag{
+    background-color: #EFEFEF !important;
+    border: 1px solid #EFEFEF !important;
+    color: black !important;
+  }
+  .react-tagsinput{
+    border-radius: 8px !important;
+    width: 100% !important;
+  }
+  .react-tagsinput-tag a::before {
+    content: "  X" !important;
+  }
+  .react-tagsinput-remove {
+    cursor: pointer;
+    font-weight: normal !important;
+  }
+  .input-div>input{
+    width: 40%;
+    outline: none;
+  }
+  .input-div{
+    display: flex;
+    align-items: center;
+    gap: .6em;
+    margin-bottom: .7em;
+
+  }
+  .add-opetion{
+    padding-block: 1.5em;
+    display: flex;
+    gap: .6em;
+    align-items: center;
+  }
+  .property{
+    display: flex;
+    gap: 4.5em;
+    padding-block: .3em;
+  }
+
+  /* tab3 */
+  .container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table>thead>tr>th{
+    font-weight: 400;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+.sku-input {
+  position: relative;
+}
+
+.sku-input input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.sku-input input.duplicate {
+  border-color: red;
+}
+
+.errorsss {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #0F172A;
+}
+
+input:checked + .slider:before {
+  transform: translateX(16px);
+}
+
+/* tab4 */
+/* Container for the entire component */
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Label styling */
+  .label {
+    display: block;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+  
+  /* Input styling */
+  .input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 4px;
+  }
+  
+  /* Specific styling for the price input to make it read-only */
+  .price-input {
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 8px;
+
+  }
+  
+  /* Discount container for input and buttons */
+  .discount-container {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    gap: 2em;
+  }
+  
+  /* Discount input styling */
+  .discount-input {
+    flex: 1;
+    border-radius: 4px 0 0 4px;
+    border-radius: 8px;
+
+  }
+  
+  /* Button group for % and $ selection */
+  .button-group {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Button styling */
+  .button {
+    padding: 10px 14px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+  }
+  
+  /* Active button styling */
+  .button.active {
+    background-color: #e5f1ff;
+  }
+  

@@ -1,0 +1,49 @@
+[
+    {
+      "productTitle": "Air Max 270",
+      "price": 150,
+      "brand": "Nike",
+      "image": "https://example.com/images/nike-air-max-270.jpg"
+    },
+    {
+      "productTitle": "Ultraboost 22",
+      "price": 180,
+      "brand": "Adidas",
+      "image": "https://example.com/images/adidas-ultraboost-22.jpg"
+    },
+    {
+      "productTitle": "Classic Leather",
+      "price": 75,
+      "brand": "Reebok",
+      "image": "https://example.com/images/reebok-classic-leather.jpg"
+    },
+    {
+      "productTitle": "Gel-Kayano 28",
+      "price": 160,
+      "brand": "ASICS",
+      "image": "https://example.com/images/asics-gel-kayano-28.jpg"
+    },
+    {
+      "productTitle": "ZoomX Vaporfly NEXT%",
+      "price": 250,
+      "brand": "Nike",
+      "image": "https://example.com/images/nike-zoomx-vaporfly-next.jpg"
+    },    {
+      "productTitle": "Graphic Tee",
+      "price": 25,
+      "brand": "H&M",
+      "image": "https://example.com/images/hm-graphic-tee.jpg"
+    },
+    {
+      "productTitle": "Classic Crew Neck T-Shirt",
+      "price": 20,
+      "brand": "Uniqlo",
+      "image": "https://example.com/images/uniqlo-classic-crew-neck.jpg"
+    },
+    {
+      "productTitle": "Logo Print T-Shirt",
+      "price": 35,
+      "brand": "Nike",
+      "image": "https://example.com/images/nike-logo-print-tshirt.jpg"
+    }
+  ]  

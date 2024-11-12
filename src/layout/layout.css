@@ -1,0 +1,49 @@
+.layout{
+    display: flex;
+    /* height: 93vh; */
+    /* width: 100%; */
+}
+
+main{
+    height: 100%;   
+    width: 100%;
+    padding-right: 1em;
+}
+/* sidebar */
+
+/* .ps-sidebar-container {
+    height: 93vh !important
+} */
+#logo{
+    padding-block: 1.5em;
+    border-bottom: 1px solid #00000014;
+    margin-bottom: 1em;
+}
+.css-1wvake5 {
+    width: 27vw !important;
+}
+input[type=checkbox] {
+    transform: scale(1.7);
+}
+.ps-sidebar-container{
+    background-color: white !important;
+    border-radius: 8px !important;
+
+}
+.ps-sidebar-containe:hover{
+    border-radius: 8px !important;
+
+}
+.ps-active{
+    background-color: #ECF7FF !important;
+    color: black;
+    border-radius: 8px !important;
+
+}
+.ps-menu-root {
+    color: #23282D !important;
+    padding-top: 1em;
+    border-right: 1px solid #00000014;
+    height: 100vh;
+    padding-inline: 1em;
+}

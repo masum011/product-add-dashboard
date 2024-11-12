@@ -1,0 +1,65 @@
+.product-view{
+    background-color: #D9D9D966;
+    padding-inline: 1em;
+    border-radius: 14px;
+    padding-bottom: 10em;
+}
+.product-view>p{
+    padding-block: 1em;
+    font-weight: 600;
+}
+
+/* modal  */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+  }
+  .custom-modal-class {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    width: 576px;
+    /* height: 200px; */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* upload btn */
+  .upload-button {
+    display: flex;                /* Flexbox to align icon and text */
+    align-items: center;          /* Center vertically */
+    padding: 8px 16px;            /* Padding for button */
+    font-size: 16px;              /* Font size */
+    color: #007bff;               /* Blue color for text */
+    background-color: white;      /* White background */
+    border: 2px solid #007bff;    /* Blue border */
+    border-radius: 8px;           /* Rounded corners */
+    cursor: pointer;              /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .upload-button:hover {
+    background-color: #e6f0ff;    /* Light blue background on hover */
+  }
+  
+  .upload-icon {
+    margin-right: 8px;            /* Space between icon and text */
+  }
+  
